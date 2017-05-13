@@ -16,8 +16,8 @@ frames: video.mp4
 txtframes: frames
 	mkdir -p txtframes
 	for f in frames/frame*.bmp; do \
-		echo "==> $${f%bmp}"; \
-		img2txt.py --maxLen=84 --targetAspect=0.5 $$f | \
+		echo "==> $${f%.bmp}"; \
+		img2txt.py --maxLen=86 --targetAspect=0.5 $$f | \
 			python ./process_frame.py --lpad 12 --rpad 11 > txt$${f%bmp}txt; \
 	done
 

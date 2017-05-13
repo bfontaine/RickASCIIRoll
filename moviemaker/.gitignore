@@ -1,4 +1,5 @@
 /frames
 /txtframes
 *.bmp
+/*.go
 video.*

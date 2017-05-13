@@ -1,4 +1,4 @@
-# RickASCIIRoll
+# RickASCIIRoll Movie Maker
 
 ## Setup
 
@@ -15,3 +15,5 @@ Then run `make txtframes` to get all video frames as text. Be aware that it
 creates one 2MB `bmp` file for each frame in the video so you’ll need some
 room.
 Run `make play` for a preview.
+
+Run `python compile_movie.py -o ../movie.go txtframes`

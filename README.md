@@ -2,7 +2,7 @@
 
 ## Setup
 
-You need Ruby, `youtube-dl`, `ffmpeg`, and [`img2txt.py`][img2txt].
+You need Python, `youtube-dl`, `ffmpeg`, and [`img2txt.py`][img2txt].
 
 On macOS:
 
